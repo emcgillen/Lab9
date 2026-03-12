@@ -1,0 +1,102 @@
+/* Ethan McGillen */
+/* Global Styles */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.6;
+color: #333;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+position: relative;
+}
+
+/* Background Image with Transparency */
+
+body:before {
+content: "";
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('background.jpg');
+background-size: cover;
+background-position: center;
+opacity: 0.1;
+z-index: -1;
+}
+
+/* Header */
+
+header {
+text-align: center;
+margin-bottom: 30px;
+}
+
+header img {
+border-radius: 50%;
+margin: 10px 0;
+}
+
+/* Sections */
+
+section {
+background: white;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+
+h1 {
+color: #222;
+margin-bottom: 10px;
+}
+
+h2 {
+color: #444;
+margin-bottom: 10px;
+}
+
+h3 {
+margin-top: 10px;
+}
+
+/* Lists */
+
+ul {
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+ol {
+margin-left: 20px;
+}
+
+/* Links */
+
+a {
+color: #0066cc;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+text-align: center;
+margin-top: 20px;
+font-size: 14px;
+}
